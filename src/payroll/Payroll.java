@@ -16,6 +16,22 @@ public class Payroll
    public double Salary;
    public double bonus;
   public String emp;
+
+    public double getSalary() {
+        return Salary;
+    }
+
+    public String getEmp() {
+        return emp;
+    }
+
+    public void setSalary(double Salary) {
+        this.Salary = Salary;
+    }
+
+    public void setEmp(String emp) {
+        this.emp = emp;
+    }
  
      /**constructor that takes the salary and employee name
       * 
